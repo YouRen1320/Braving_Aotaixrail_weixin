@@ -1,0 +1,1 @@
+<view class="{{['day-night-overlay', 'data-v-0bae2a19', a && 'is-night', b && 'has-vision']}}"><view class="darkness data-v-0bae2a19"></view></view>

@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),t={__name:"BagButton",emits:["click"],setup:t=>(t,c)=>({a:e.o((e=>t.$emit("click")))})},c=e._export_sfc(t,[["__scopeId","data-v-aeae619b"]]);wx.createComponent(c);

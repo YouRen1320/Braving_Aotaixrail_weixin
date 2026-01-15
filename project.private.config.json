@@ -1,0 +1,23 @@
+{
+  "setting": {
+    "skylineRenderEnable": true,
+    "urlCheck": false,
+    "coverView": false,
+    "lazyloadPlaceholderEnable": false,
+    "preloadBackgroundData": false,
+    "autoAudits": false,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "showShadowRootInWxmlPanel": false,
+    "useStaticServer": false,
+    "useLanDebug": false,
+    "showES6CompileOption": false,
+    "compileHotReLoad": true,
+    "checkInvalidKey": true,
+    "ignoreDevUnusedFiles": true,
+    "bigPackageSizeSupport": true
+  },
+  "libVersion": "3.13.0",
+  "projectname": "Braving_Aotai_Trail",
+  "condition": {}
+}

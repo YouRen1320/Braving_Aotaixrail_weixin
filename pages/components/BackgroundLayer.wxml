@@ -1,0 +1,1 @@
+<view class="bg-container data-v-aba94337"><image wx:if="{{a}}" class="bg-image fading data-v-aba94337" src="{{b}}" mode="aspectFill"/><image src="{{c}}" mode="aspectFill" class="{{['bg-image', 'data-v-aba94337', d && 'fade-in']}}"/><view class="overlay data-v-aba94337"></view></view>

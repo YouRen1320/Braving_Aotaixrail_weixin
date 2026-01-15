@@ -1,0 +1,34 @@
+<view class="container data-v-825c156d">
+  <image class="bg-image data-v-825c156d" src="/staticPkg10/back_ground.png" mode="aspectFill" />
+  <view class="overlay data-v-825c156d"></view>
+  <view class="snow-container data-v-825c156d" pointer-events="none">
+    <view wx:for="{{b}}" wx:for-item="flake" wx:key="a" class="snowflake data-v-825c156d" style="{{'left:' + flake.b + ';' + ('animation-duration:' + flake.c) + ';' + ('animation-delay:' + flake.d) + ';' + ('width:' + flake.e) + ';' + ('height:' + flake.f) + ';' + ('opacity:' + flake.g)}}">
+    </view>
+  </view>
+  <view class="content data-v-825c156d">
+    <view class="music-btn data-v-825c156d" bindtap="{{d}}" hover-class="btn-hover"><text class="icon data-v-825c156d">{{c}}</text></view>
+    <view class="title-section data-v-825c156d"><text class="main-title data-v-825c156d">徒步鳌太线</text>
+      <view class="subtitle-wrap data-v-825c156d">
+        <view class="divider-line data-v-825c156d"></view><text class="subtitle data-v-825c156d">勇闯鳌太</text>
+        <view class="divider-line data-v-825c156d"></view>
+      </view>
+      <view class="quote-wrap data-v-825c156d"><text class="quote data-v-825c156d">"我们征服不了任何一座山，</text><text class="quote data-v-825c156d">只是山放过了我们而已。"</text></view>
+    </view>
+    <view class="btn-group data-v-825c156d">
+      <view class="btn btn-primary data-v-825c156d" bindtap="{{e}}"><text class="btn-icon data-v-825c156d">▶</text><text class="btn-text-primary data-v-825c156d">开始徒步</text></view>
+      <view class="btn btn-secondary data-v-825c156d" bindtap="{{f}}"><text class="btn-icon-secondary data-v-825c156d">↻</text><text class="btn-text-secondary data-v-825c156d">继续徒步</text></view>
+      <view class="btn btn-secondary data-v-825c156d" bindtap="{{g}}"><text class="btn-icon-secondary data-v-825c156d">🏆</text><text class="btn-text-secondary data-v-825c156d">结局图鉴</text></view>
+      <view class="btn btn-text-link data-v-825c156d" bindtap="{{h}}"><text class="btn-icon-link data-v-825c156d">ℹ</text><text class="btn-text-link-text data-v-825c156d">关于游戏</text>
+      </view>
+    </view>
+    <view class="footer-warning data-v-825c156d"><text class="warning-text data-v-825c156d">⚠鳌太线是中国十大死亡路线之一，请敬畏自然</text></view>
+    <view wx:if="{{i}}" class="modal-overlay data-v-825c156d">
+      <view class="modal-content data-v-825c156d"><text class="modal-title data-v-825c156d">重新开始</text><text class="modal-text data-v-825c156d">开始新游戏将覆盖现有存档，确定要重新开始吗？</text>
+        <view class="modal-actions data-v-825c156d">
+          <view class="modal-btn cancel data-v-825c156d" bindtap="{{j}}"><text class="modal-btn-text data-v-825c156d">取消</text></view>
+          <view class="modal-btn confirm data-v-825c156d" bindtap="{{k}}"><text class="modal-btn-text highlight data-v-825c156d">确定</text></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

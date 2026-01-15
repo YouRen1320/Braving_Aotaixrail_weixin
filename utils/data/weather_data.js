@@ -1,0 +1,1 @@
+"use strict";exports.weatherData={sunny:{name:"晴朗",icon:"☀",desc:"阳光明媚，视野开阔。",costCoeff:1},cloudy:{name:"多云",icon:"⛅",desc:"阴云密布，气温适宜。",costCoeff:1},fog:{name:"大雾",icon:"🌫",desc:"浓雾弥漫，能见度极低。",costCoeff:1.3,hpLeak:1},snow:{name:"小雪",icon:"🌨",desc:"零星雪花飘落，气温下降。",costCoeff:1.4,hpLeak:2},storm:{name:"暴风雪",icon:"⚡❄",desc:"狂风卷着暴雪，举步维艰！",costCoeff:2,hpLeak:8}};

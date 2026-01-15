@@ -1,0 +1,1 @@
+"use strict";const e=require("../../common/vendor.js"),a={__name:"DayNightOverlay",props:{isNight:{type:Boolean,default:!1},hasVision:{type:Boolean,default:!0}},setup:e=>(a,o)=>({a:e.isNight?1:"",b:e.hasVision?1:""})},o=e._export_sfc(a,[["__scopeId","data-v-0bae2a19"]]);wx.createComponent(o);

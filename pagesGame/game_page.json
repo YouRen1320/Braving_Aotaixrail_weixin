@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "勇闯鳌太",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "game-status": "../pages/components/GameStatus",
+    "bag-button": "../pages/components/BagButton",
+    "inventory-panel": "../pages/components/InventoryPanel",
+    "game-over-panel": "../pages/components/GameOverPanel",
+    "background-layer": "../pages/components/BackgroundLayer",
+    "day-night-overlay": "../pages/components/DayNightOverlay",
+    "game-notification": "../pages/components/GameNotification"
+  }
+}

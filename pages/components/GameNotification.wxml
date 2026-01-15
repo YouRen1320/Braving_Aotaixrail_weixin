@@ -1,0 +1,1 @@
+<view class="{{['notification-container', 'data-v-eb244eaa', c && 'active', d && 'negative']}}"><view class="notification-content data-v-eb244eaa"><view class="icon-box data-v-eb244eaa"><text class="icon data-v-eb244eaa">{{a}}</text></view><text class="message data-v-eb244eaa">{{b}}</text></view><view class="scan-line data-v-eb244eaa"></view></view>

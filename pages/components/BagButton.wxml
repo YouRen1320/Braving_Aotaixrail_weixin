@@ -1,0 +1,1 @@
+<view class="bag-btn data-v-aeae619b" hover-class="btn-hover" bindtap="{{a}}"><text class="icon data-v-aeae619b">🎒</text><text class="label data-v-aeae619b">背包</text></view>

@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("./common/vendor.js"),t=require("./stores/index.js");Math;const p=e.defineComponent({__name:"App",setup:e=>()=>{}});function n(){const n=e.createSSRApp(p);return n.use(t.pinia),{app:n}}n().app.mount("#app"),exports.createApp=n;

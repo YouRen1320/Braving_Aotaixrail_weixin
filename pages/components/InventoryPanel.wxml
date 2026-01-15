@@ -1,0 +1,45 @@
+<wxs module="helper">
+    module.exports.noop = function() {}
+</wxs>
+<view wx:if="{{a}}" class="inventory-overlay data-v-2afadfb4" bindtap="{{I}}">
+    <view class="panel data-v-2afadfb4" catchtap="{{helper.noop}}">
+        <view class="header data-v-2afadfb4">
+            <view class="header-left data-v-2afadfb4"><text class="title data-v-2afadfb4">物资</text><text
+                    class="{{['weight-info', 'data-v-2afadfb4', d && 'warning']}}"> ⚖️ {{b}} / {{c}} kg </text></view>
+            <view class="close-btn data-v-2afadfb4" bindtap="{{e}}">×</view>
+        </view>
+        <view class="equip-section data-v-2afadfb4">
+            <view class="{{['equip-slot', 'data-v-2afadfb4', h && 'active']}}" bindtap="{{i}}"><text
+                    class="slot-icon data-v-2afadfb4">{{f}}</text><text class="slot-name data-v-2afadfb4">{{g}}</text>
+            </view>
+            <view class="{{['equip-slot', 'data-v-2afadfb4', l && 'active']}}" bindtap="{{m}}"><text
+                    class="slot-icon data-v-2afadfb4">{{j}}</text><text class="slot-name data-v-2afadfb4">{{k}}</text>
+            </view>
+            <view class="{{['equip-slot', 'data-v-2afadfb4', p && 'active']}}" bindtap="{{q}}"><text
+                    class="slot-icon data-v-2afadfb4">{{n}}</text><text class="slot-name data-v-2afadfb4">{{o}}</text>
+            </view>
+            <view class="{{['equip-slot', 'data-v-2afadfb4', t && 'active']}}" bindtap="{{v}}"><text
+                    class="slot-icon data-v-2afadfb4">{{r}}</text><text class="slot-name data-v-2afadfb4">{{s}}</text>
+            </view>
+        </view>
+        <scroll-view scroll-y class="grid-area data-v-2afadfb4">
+            <view wx:if="{{w}}" class="grid data-v-2afadfb4">
+                <view wx:for="{{x}}" wx:for-item="item" wx:key="c"
+                    class="{{['grid-item', 'data-v-2afadfb4', item.d && 'active']}}" bindtap="{{item.e}}"><text
+                        class="item-icon data-v-2afadfb4">{{item.a}}</text><text
+                        class="item-name data-v-2afadfb4">{{item.b}}</text></view>
+            </view>
+            <view wx:else class="empty-tip data-v-2afadfb4"><text class="data-v-2afadfb4">背包空空如也...</text></view>
+        </scroll-view>
+        <view class="detail-area data-v-2afadfb4">
+            <block wx:if="{{y}}">
+                <view class="item-info data-v-2afadfb4"><text class="info-name data-v-2afadfb4">{{z}}</text><text
+                        class="info-desc data-v-2afadfb4">{{A}}</text><text wx:if="{{B}}"
+                        class="info-stats data-v-2afadfb4"><text wx:if="{{C}}" class="data-v-2afadfb4">保暖
+                            +{{D}}</text><text wx:if="{{E}}" class="data-v-2afadfb4">速度 +{{F}}</text></text></view>
+                <button class="use-btn data-v-2afadfb4" bindtap="{{H}}">{{G}}</button>
+            </block>
+            <view wx:else class="placeholder-text data-v-2afadfb4"> 点击物品查看详情 </view>
+        </view>
+    </view>
+</view>

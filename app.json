@@ -1,0 +1,64 @@
+{
+  "pages": ["pages/home_page"],
+  "subPackages": [
+    {
+      "root": "pagesGame",
+      "pages": ["game_page", "character_page", "journal_page", "gallery_page"]
+    },
+    {
+      "root": "staticPkg1",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg2",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg3",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg4",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg5",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg6",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg7",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg8",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg9",
+      "pages": ["readme"]
+    },
+    {
+      "root": "staticPkg10",
+      "pages": ["readme"]
+    }
+  ],
+  "window": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "preloadRule": {
+    "pages/home_page": {
+      "network": "all",
+      "packages": ["pagesGame"]
+    }
+  },
+  "permission": {},
+  "usingComponents": {}
+}
