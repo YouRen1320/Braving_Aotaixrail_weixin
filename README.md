@@ -1,5 +1,8 @@
 # 项目重要说明 (READ BEFORE CODING)
 
+> [!IMPORTANT]
+> **历史微信小程序构建版本，已停止维护。** 本仓库是在 UniApp 编译产物上手工拆分资源后的版本，无法安全地从原始工程重复生成。当前原生微信小程序版本请查看 [cyber-hiking](https://github.com/YouRen1320/cyber-hiking)。本仓库只保留用于追溯旧版本和资源分包方案。
+
 > ⚠️ **CRITICAL WARNING**:
 > 本目录 (`mp-weixin`) 已脱离 uni-app 构建系统，转为**原生微信小程序**开发。
 > **严禁运行 uni-app 编译命令**（如 `npm run dev:mp-weixin` 或 HBuilderX 运行），否则会覆盖此处的手动修改并导致资源丢失！
